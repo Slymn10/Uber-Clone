@@ -1,0 +1,14 @@
+platform :ios, '10.0'
+
+target 'Uber' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Uber
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'Firebase/Storage'
+pod 'Firebase/Core'
+pod 'IQKeyboardManagerSwift'
+pod 'GeoFire'
+end
